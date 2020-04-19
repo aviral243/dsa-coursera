@@ -1,3 +1,9 @@
+// Problem Description
+// Task. Given an integer n, find the last digit of the nth Fibonacci number F n (that is, F n mod 10).
+// Input Format. The input consists of a single integer n.
+// Constraints. 0 ≤ n ≤ 10 7 .
+// Output Format. Output the last digit of F n .
+
 #include <bits/stdc++.h>
 using namespace std;
 

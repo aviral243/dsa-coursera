@@ -1,3 +1,9 @@
+// Problem Description
+// Task. Given an integer n, find the nth Fibonacci number F n .
+// Input Format. The input consists of a single integer n.
+// Constraints. 0 ≤ n ≤ 45.
+// Output Format. Output F n .
+
 #include <iostream>
 
 using namespace std;

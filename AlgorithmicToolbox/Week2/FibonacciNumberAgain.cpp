@@ -1,3 +1,10 @@
+// Problem Description
+// Task. Given two integers n and m, output F n mod m (that is, the remainder of F n when divided by m).
+// Input Format. The input consists of two integers n and m given on the same line (separated by a space).
+// Constraints. 1 ≤ n ≤ 10 14 , 2 ≤ m ≤ 10 3 .
+// Output Format. Output F n mod m.
+
+
 #include<bits/stdc++.h>
 using namespace std;
 
