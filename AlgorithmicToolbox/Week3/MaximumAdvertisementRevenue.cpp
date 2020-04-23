@@ -10,3 +10,36 @@
 
 #include <bits/stdc++.h>
 using namespace std;
+
+typedef long long int ll;
+
+int main()
+{
+    ll n;
+    cin >> n;
+    vector<ll> a;
+    vector<ll> b;
+    for (int i = 0; i < n; i++)
+    {
+        ll i1;
+        cin >> i1;
+        a.push_back(i1);
+    }
+    sort(a.begin(), a.end());
+
+    for (int i = 0; i < n; i++)
+    {
+        ll i1;
+        cin >> i1;
+        b.push_back(i1);
+    }
+    sort(b.begin(), b.end());
+
+    ll sum = 0;
+
+    for (int i = 0; i < n; i++)
+    {
+        sum += a[i] * b[i];
+    }
+    cout << sum;
+}
