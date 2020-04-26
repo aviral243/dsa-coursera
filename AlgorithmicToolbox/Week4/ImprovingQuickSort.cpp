@@ -63,8 +63,8 @@ void quickSort(vector<int> &A, int l, int r)
         return;
     int i, j;
     partition(A, l, r, i, j);
-    quickSort(A, l, j);
-    quickSort(A, i, r);
+    // quickSort(A, l, j);
+    // quickSort(A, i, r);
 }
 
 int main()
